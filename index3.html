@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RAPRO TECHNOLOGIES — AWS & DevOps Training</title>
+  <meta name="description" content="RAPRO TECHNOLOGIES — Professional AWS & DevOps training, internships, and client project experience." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Small custom styles */
+    .gradient { background: linear-gradient(90deg,#0f172a 0%, #0ea5a4 100%);} 
+  </style>
+</head>
+<body class="antialiased text-slate-800">
+  <!-- NAV -->
+  <header class="fixed w-full z-30 bg-white/90 backdrop-blur border-b">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-lg gradient flex items-center justify-center text-white font-bold">R</div>
+        <div>
+          <h1 class="text-lg font-semibold">RAPRO TECHNOLOGIES</h1>
+          <p class="text-xs text-slate-500">AWS · DevOps · Internships</p>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#services" class="hover:underline">Services</a>
+        <a href="#courses" class="hover:underline">Courses</a>
+        <a href="#internships" class="hover:underline">Internships</a>
+        <a href="#projects" class="hover:underline">Projects</a>
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#contact" class="text-white bg-slate-800 px-4 py-2 rounded">Contact</a>
+      </nav>
+      <button id="mobileBtn" class="md:hidden p-2 rounded hover:bg-slate-100">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden border-t">
+      <div class="px-6 py-4 flex flex-col gap-3">
+        <a href="#services" class="py-2">Services</a>
+        <a href="#courses" class="py-2">Courses</a>
+        <a href="#internships" class="py-2">Internships</a>
+        <a href="#projects" class="py-2">Projects</a>
+        <a href="#about" class="py-2">About</a>
+        <a href="#contact" class="py-2">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main class="pt-28">
+    <section class="bg-gradient-to-r from-slate-900 to-slate-700 text-white">
+      <div class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">Build your career in <span class="text-teal-300">AWS & DevOps</span></h2>
+          <p class="mt-6 text-lg text-slate-200">Hands-on training, industry internships, and real client projects that turn learners into job-ready professionals.</p>
+          <div class="mt-8 flex gap-4">
+            <a href="#courses" class="bg-white text-slate-900 px-6 py-3 rounded-md font-medium">Explore Courses</a>
+            <a href="#contact" class="border border-white px-6 py-3 rounded-md text-white">Contact Us</a>
+          </div>
+
+          <div class="mt-8 grid grid-cols-3 gap-4 text-sm text-slate-300">
+            <div class="p-4 bg-white/5 rounded">Cert. Guidance</div>
+            <div class="p-4 bg-white/5 rounded">Live Projects</div>
+            <div class="p-4 bg-white/5 rounded">Placement Support</div>
+          </div>
+        </div>
+        <div>
+          <div class="bg-white rounded-lg p-6 shadow-lg text-slate-800">
+            <h3 class="font-semibold text-xl">Get Started — Free Counselling</h3>
+            <p class="text-sm text-slate-600 mt-2">Tell us your goals and we’ll recommend the best path (course + internship).</p>
+            <form class="mt-4 grid gap-3">
+              <input required class="border rounded px-3 py-2" placeholder="Full name" />
+              <input required class="border rounded px-3 py-2" placeholder="Email address" />
+              <input required class="border rounded px-3 py-2" placeholder="Phone number" />
+              <select class="border rounded px-3 py-2">
+                <option>Interested in: AWS</option>
+                <option>Interested in: DevOps</option>
+                <option>Both</option>
+              </select>
+              <button class="bg-slate-900 text-white px-4 py-2 rounded">Request Call</button>
+            </form>
+            <p class="text-xs text-slate-500 mt-3">We respect your privacy. This form is for demo only.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="max-w-6xl mx-auto px-6 py-16">
+      <h3 class="text-2xl font-bold">Our Services</h3>
+      <p class="text-slate-600 mt-2">Solutions for learners and clients — from training to professional project delivery.</p>
+
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="p-6 border rounded-lg">
+          <h4 class="font-semibold">AWS Training</h4>
+          <p class="mt-3 text-sm text-slate-600">Cloud fundamentals to advanced architecture, hands-on labs, and certification guidance.</p>
+          <ul class="mt-3 text-sm text-slate-500 list-disc list-inside">
+            <li>EC2, S3, VPC, IAM</li>
+            <li>CloudFormation & IaC</li>
+            <li>Cost optimization</li>
+          </ul>
+        </div>
+        <div class="p-6 border rounded-lg">
+          <h4 class="font-semibold">DevOps Training</h4>
+          <p class="mt-3 text-sm text-slate-600">Tools and practices to automate software delivery and infrastructure.</p>
+          <ul class="mt-3 text-sm text-slate-500 list-disc list-inside">
+            <li>CI/CD with Jenkins & GitHub Actions</li>
+            <li>Docker & Kubernetes</li>
+            <li>Terraform, Ansible</li>
+          </ul>
+        </div>
+        <div class="p-6 border rounded-lg">
+          <h4 class="font-semibold">Internships & Projects</h4>
+          <p class="mt-3 text-sm text-slate-600">Work on live client projects, receive mentorship, and earn certificates.</p>
+          <ul class="mt-3 text-sm text-slate-500 list-disc list-inside">
+            <li>Client-facing project exposure</li>
+            <li>Mentor reviews & feedback</li>
+            <li>Internship certificate</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- COURSES -->
+    <section id="courses" class="bg-slate-50 py-12">
+      <div class="max-w-6xl mx-auto px-6">
+        <h3 class="text-2xl font-bold">Courses & Programs</h3>
+        <p class="text-slate-600 mt-2">Structured programs for beginners to advanced learners.</p>
+
+        <div class="mt-8 grid md:grid-cols-3 gap-6">
+          <div class="p-6 bg-white rounded-lg shadow">
+            <h4 class="font-semibold">AWS Solutions Architect</h4>
+            <p class="text-sm text-slate-600 mt-2">Design and deploy scalable systems on AWS.</p>
+            <div class="mt-4 flex justify-between items-center">
+              <span class="text-sm text-slate-700 font-medium">Duration: 8 weeks</span>
+              <a href="#contact" class="text-sm underline">Enroll</a>
+            </div>
+          </div>
+          <div class="p-6 bg-white rounded-lg shadow">
+            <h4 class="font-semibold">DevOps Professional Program</h4>
+            <p class="text-sm text-slate-600 mt-2">CI/CD, IaC, containerization, monitoring & more.</p>
+            <div class="mt-4 flex justify-between items-center">
+              <span class="text-sm text-slate-700 font-medium">Duration: 10 weeks</span>
+              <a href="#contact" class="text-sm underline">Enroll</a>
+            </div>
+          </div>
+          <div class="p-6 bg-white rounded-lg shadow">
+            <h4 class="font-semibold">Kubernetes & Containerization</h4>
+            <p class="text-sm text-slate-600 mt-2">Hands-on with clusters, deployments, and Helm charts.</p>
+            <div class="mt-4 flex justify-between items-center">
+              <span class="text-sm text-slate-700 font-medium">Duration: 6 weeks</span>
+              <a href="#contact" class="text-sm underline">Enroll</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERNSHIPS -->
+    <section id="internships" class="max-w-6xl mx-auto px-6 py-16">
+      <h3 class="text-2xl font-bold">Internships</h3>
+      <p class="text-slate-600 mt-2">Get placed on client projects and build a portfolio that employers love.</p>
+
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <div class="p-6 border rounded-lg">
+          <h4 class="font-semibold">Student Internship Program</h4>
+          <p class="mt-2 text-sm text-slate-600">3-months internship with weekly mentor sessions and project milestones.</p>
+          <ul class="mt-3 text-sm text-slate-500 list-disc list-inside">
+            <li>Real client work</li>
+            <li>Weekly code reviews</li>
+            <li>Certificate on completion</li>
+          </ul>
+        </div>
+        <div class="p-6 border rounded-lg">
+          <h4 class="font-semibold">Project-to-Job Pathway</h4>
+          <p class="mt-2 text-sm text-slate-600">Top performers will be recommended to hiring partners or offered project roles.</p>
+          <ul class="mt-3 text-sm text-slate-500 list-disc list-inside">
+            <li>Referrals to clients</li>
+            <li>Interview prep</li>
+            <li>Ongoing mentorship</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="bg-slate-50 py-12">
+      <div class="max-w-6xl mx-auto px-6">
+        <h3 class="text-2xl font-bold">Client Projects & Case Studies</h3>
+        <p class="text-slate-600 mt-2">We execute cloud migrations, CI/CD pipelines, containerization, and monitoring for clients.</p>
+
+        <div class="mt-6 grid md:grid-cols-3 gap-6">
+          <div class="p-6 bg-white rounded-lg shadow">
+            <h4 class="font-semibold">CI/CD Automation</h4>
+            <p class="mt-2 text-sm text-slate-600">Automated build, test, and deploy pipelines using Git, Jenkins, and AWS.</p>
+          </div>
+          <div class="p-6 bg-white rounded-lg shadow">
+            <h4 class="font-semibold">Cloud Migration</h4>
+            <p class="mt-2 text-sm text-slate-600">Migrate legacy workloads to AWS with minimal downtime.</p>
+          </div>
+          <div class="p-6 bg-white rounded-lg shadow">
+            <h4 class="font-semibold">Monitoring & Observability</h4>
+            <p class="mt-2 text-sm text-slate-600">Prometheus, Grafana, CloudWatch — monitoring tailored to needs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="max-w-6xl mx-auto px-6 py-16">
+      <h3 class="text-2xl font-bold">About RAPRO TECHNOLOGIES</h3>
+      <p class="text-slate-600 mt-3">RAPRO TECHNOLOGIES is a software and training company focused on cloud and DevOps education, internships, and delivering projects for clients. Our trainers are industry practitioners with real project experience.</p>
+
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <div class="p-6 border rounded">
+          <h4 class="font-semibold">Our Vision</h4>
+          <p class="text-sm text-slate-600 mt-2">To bridge the gap between academic knowledge and industry requirements.</p>
+        </div>
+        <div class="p-6 border rounded">
+          <h4 class="font-semibold">Our Mission</h4>
+          <p class="text-sm text-slate-600 mt-2">To enable learners to become employable through practical training and real projects.</p>
+        </div>
+        <div class="p-6 border rounded">
+          <h4 class="font-semibold">Values</h4>
+          <p class="text-sm text-slate-600 mt-2">Quality, Practicality, Integrity, Student Success.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="bg-gradient-to-r from-slate-900 to-slate-700 text-white py-12">
+      <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8">
+        <div>
+          <h3 class="text-2xl font-bold">Contact Us</h3>
+          <p class="text-slate-200 mt-2">Have questions? Want to enroll? Share your details and we will get back to you.</p>
+
+          <div class="mt-6 space-y-3 text-sm text-slate-200">
+            <div><strong>Office:</strong> Bangalore, India</div>
+            <div><strong>Email:</strong> <a href="mailto:info@raprotechnologies.com" class="underline">info@raprotechnologies.com</a></div>
+            <div><strong>Phone:</strong> +91-XXXXXXXXXX</div>
+            <div><strong>Hours:</strong> Mon–Sat 9:00 AM – 7:00 PM</div>
+          </div>
+        </div>
+
+        <div>
+          <form class="bg-white rounded p-6 text-slate-800 shadow">
+            <label class="block text-sm font-medium">Full name</label>
+            <input class="w-full border rounded px-3 py-2 mt-1" />
+            <label class="block text-sm font-medium mt-3">Email</label>
+            <input class="w-full border rounded px-3 py-2 mt-1" />
+            <label class="block text-sm font-medium mt-3">Message</label>
+            <textarea class="w-full border rounded px-3 py-2 mt-1" rows="4"></textarea>
+            <button class="mt-4 bg-slate-900 text-white px-4 py-2 rounded">Send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-white border-t">
+      <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row justify-between">
+        <div>
+          <h4 class="font-bold">RAPRO TECHNOLOGIES</h4>
+          <p class="text-sm text-slate-600 mt-2">AWS · DevOps · Internships · Client Projects</p>
+          <p class="text-xs text-slate-400 mt-4">© 2025 RAPRO TECHNOLOGIES. All rights reserved.</p>
+        </div>
+        <div class="mt-6 md:mt-0 grid grid-cols-2 gap-6">
+          <div>
+            <h5 class="font-semibold">Explore</h5>
+            <ul class="text-sm text-slate-600 mt-2">
+              <li><a href="#services">Services</a></li>
+              <li><a href="#courses">Courses</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5 class="font-semibold">Contact</h5>
+            <ul class="text-sm text-slate-600 mt-2">
+              <li><a href="mailto:info@raprotechnologies.com">info@raprotechnologies.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // mobile menu toggle
+    document.getElementById('mobileBtn').addEventListener('click', function(){
+      const m = document.getElementById('mobileMenu');
+      m.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>

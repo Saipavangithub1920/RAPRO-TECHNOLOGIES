@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>RAPRO TECHNOLOGIES — AWS & DevOps Training</title>
   <meta name="description" content="RAPRO TECHNOLOGIES — Software company offering AWS & DevOps training, internships, live projects, and placement support." />
-  <link rel="icon" href="\images\companylogo.jpg" />
+  <link rel="icon" href="images/companylogo.jpg" />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     .brand-gradient{background:linear-gradient(90deg,#0f172a 0%,#0ea5a4 100%)}
@@ -16,8 +16,9 @@
   <!-- NAV -->
   <header class="fixed w-full z-30 bg-white/80 glass border-b">
     <div class="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
-            <a href="#top" class="flex flex-col items-center text-center gap-1">
+      <a href="#top" class="flex flex-col items-center text-center gap-1">
   <img src="images/companylogo.jpg" alt="RAPRO Logo" class="h-28 w-auto">
+  <p class="text-sm text-slate-600">Software · AWS · DevOps · Internships</p>
 </a>
       <nav class="hidden md:flex items-center gap-6 text-sm">
         <a href="#services" class="hover:underline">Services</a>
@@ -62,18 +63,16 @@
           </div>
         </div>
 
-        <!-- Form Type 2: Compact Registration Card that emails to owner via formsubmit -->
+        <!-- Form Type 2 -->
         <div class="bg-white rounded-2xl p-6 shadow-xl text-slate-800">
           <h3 class="font-semibold text-xl">Register for Counselling</h3>
           <p class="text-sm text-slate-600 mt-1">Submit your details — you'll get a confirmation email, and we will contact you.</p>
           <form class="mt-4 grid gap-3" action="https://formsubmit.co/saipm0430@gmail.com" method="POST">
-            <!-- formsubmit settings -->
             <input type="hidden" name="_subject" value="New Registration - RAPRO TECHNOLOGIES" />
             <input type="hidden" name="_template" value="table" />
             <input type="text" name="_honey" class="hidden" />
             <input type="hidden" name="_captcha" value="true" />
             <input type="hidden" name="_next" value="https://www.google.com" />
-
             <input required name="Full Name" class="border rounded px-3 py-2" placeholder="Full name" />
             <input required type="email" name="Email" class="border rounded px-3 py-2" placeholder="Email address" />
             <input required name="Phone" class="border rounded px-3 py-2" placeholder="Phone number" />
@@ -85,7 +84,7 @@
             </select>
             <button class="bg-slate-900 text-white px-4 py-2 rounded">Register</button>
           </form>
-          <p class="text-xs text-slate-500 mt-3">Powered by formsubmit.co — replace _next with your own thank-you page later.</p>
+          <p class="text-xs text-slate-500 mt-3">Emails delivered to saipm0430@gmail.com</p>
         </div>
       </div>
     </section>
@@ -97,15 +96,15 @@
       <div class="mt-8 grid md:grid-cols-3 gap-6">
         <div class="p-6 border rounded-2xl">
           <h4 class="font-semibold">AWS Training</h4>
-          <p class="mt-2 text-sm text-slate-600">From EC2 to VPC, IAM to IaC — learn by doing with labs and guidance for certifications.</p>
+          <p class="mt-2 text-sm text-slate-600">From EC2 to VPC, IAM to IaC — learn by doing with labs and certification preparation.</p>
         </div>
         <div class="p-6 border rounded-2xl">
           <h4 class="font-semibold">DevOps Training</h4>
-          <p class="mt-2 text-sm text-slate-600">CI/CD, Docker, Kubernetes, Terraform, and monitoring to automate delivery.</p>
+          <p class="mt-2 text-sm text-slate-600">CI/CD, Docker, Kubernetes, Terraform, and monitoring.</p>
         </div>
         <div class="p-6 border rounded-2xl">
-          <h4 class="font-semibold">Internships & Live Projects</h4>
-          <p class="mt-2 text-sm text-slate-600">Work on client projects. Top performers are added to paid project work with stipend/salary.</p>
+          <h4 class="font-semibold">Internships & Projects</h4>
+          <p class="mt-2 text-sm text-slate-600">Live client projects. Top performers are added to paid project work.</p>
         </div>
       </div>
     </section>
@@ -118,7 +117,7 @@
         <div class="mt-8 grid md:grid-cols-3 gap-6">
           <div class="p-6 bg-white rounded-2xl shadow">
             <h4 class="font-semibold">AWS Solutions Architect</h4>
-            <p class="text-sm text-slate-600 mt-2">Design, secure and scale workloads on AWS.</p>
+            <p class="text-sm text-slate-600 mt-2">Design and scale workloads on AWS.</p>
           </div>
           <div class="p-6 bg-white rounded-2xl shadow">
             <h4 class="font-semibold">DevOps Professional</h4>
@@ -126,11 +125,12 @@
           </div>
           <div class="p-6 bg-white rounded-2xl shadow">
             <h4 class="font-semibold">AWS + DevOps Combo</h4>
-            <p class="text-sm text-slate-600 mt-2">End‑to‑end cloud + DevOps skillset.</p>
+            <p class="text-sm text-slate-600 mt-2">End‑to‑end cloud and DevOps skillset.</p>
           </div>
         </div>
+
         <div class="mt-10">
-          <h4 class="font-semibold">Upcoming / Future Courses</h4>
+          <h4 class="font-semibold">Future Courses</h4>
           <p class="text-sm text-slate-600 mt-2">Java · Azure · GCP · Azure DevOps · etc.</p>
         </div>
       </div>
@@ -139,121 +139,19 @@
     <!-- INTERNSHIPS -->
     <section id="internships" class="max-w-7xl mx-auto px-6 py-16">
       <h3 class="text-2xl font-bold">Internships</h3>
-      <p class="text-slate-600 mt-2">Build a portfolio employers trust.</p>
+      <p class="text-slate-600 mt-2">Build a real project portfolio.</p>
       <div class="mt-6 grid md:grid-cols-2 gap-6">
         <div class="p-6 border rounded-2xl">
           <h4 class="font-semibold">Student Internship Program</h4>
-          <p class="mt-2 text-sm text-slate-600">3 months • weekly mentor sessions • milestone-based learning.</p>
-          <ul class="mt-3 text-sm text-slate-500 list-disc list-inside">
-            <li>Live client exposure</li>
-            <li>Mock interviews</li>
-            <li>Certificate on completion</li>
-          </ul>
+          <p class="mt-2 text-sm text-slate-600">3 months • mentor sessions • milestones</p>
         </div>
         <div class="p-6 border rounded-2xl">
           <h4 class="font-semibold">Project-to-Job Pathway</h4>
-          <p class="mt-2 text-sm text-slate-600">Perform best and get included in paid project work with salary/stipend.</p>
+          <p class="mt-2 text-sm text-slate-600">Top performers may get paid project work.</p>
         </div>
       </div>
     </section>
 
-    <!-- GALLERY / IMAGES -->
+    <!-- GALLERY -->
     <section id="gallery" class="bg-slate-50 py-12">
-      <div class="max-w-7xl mx-auto px-6">
-        <h3 class="text-2xl font-bold">Images</h3>
-        <p class="text-slate-600 mt-2">Your brand and classroom moments.</p>
-        <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <!-- Use your own images in /images/ folder; logo repeated once only -->
-          <img src="/images/companylogo.jpg" alt="RAPRO Logo" class="w-full h-56 object-cover rounded-2xl shadow" />
-          <img src="/images/classroom1.jpg" alt="Classroom / Lab" class="w-full h-56 object-cover rounded-2xl shadow" />
-          <img src="/images/project1.jpg" alt="Project Work" class="w-full h-56 object-cover rounded-2xl shadow" />
-        </div>
-        <p class="text-xs text-slate-500 mt-3">Tip: Replace classroom1.jpg and project1.jpg with your photos.</p>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section id="about" class="max-w-7xl mx-auto px-6 py-16">
-      <h3 class="text-2xl font-bold">About RAPRO TECHNOLOGIES</h3>
-      <div class="mt-4 grid lg:grid-cols-3 gap-6">
-        <div class="p-6 border rounded-2xl">
-          <h4 class="font-semibold">Who we are</h4>
-          <p class="text-sm text-slate-600 mt-2">A software company focused on training and delivering cloud/DevOps solutions. We teach with real projects so learners become job‑ready.</p>
-        </div>
-        <div class="p-6 border rounded-2xl">
-          <h4 class="font-semibold">What we do</h4>
-          <p class="text-sm text-slate-600 mt-2">AWS and DevOps training, internships, interview prep, mock interviews, lifetime documentation, and live projects.</p>
-        </div>
-        <div class="p-6 border rounded-2xl">
-          <h4 class="font-semibold">Our plan</h4>
-          <p class="text-sm text-slate-600 mt-2">In the first year we focus on strong training and internships. From year two we onboard more client projects and hire from our top performers.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="brand-gradient text-white py-12">
-      <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-start">
-        <div>
-          <h3 class="text-2xl font-bold">Contact Us</h3>
-          <p class="text-slate-100 mt-2">Have questions or want to enroll? Send us a message — it will reach us by email.</p>
-
-          <div class="mt-6 space-y-3 text-sm text-slate-100/90">
-            <div><strong>Office:</strong> Bangalore, India</div>
-            <div><strong>Email:</strong> <a href="mailto:saipm0430@gmail.com" class="underline">saipm0430@gmail.com</a></div>
-            <div><strong>Hours:</strong> Mon–Sat 9:00 AM – 7:00 PM</div>
-          </div>
-        </div>
-
-        <!-- Secondary contact form to same email -->
-        <form class="bg-white rounded-2xl p-6 text-slate-800 shadow" action="https://formsubmit.co/saipm0430@gmail.com" method="POST">
-          <h4 class="font-semibold text-lg">Send a Message</h4>
-          <input type="hidden" name="_subject" value="Website Contact - RAPRO TECHNOLOGIES" />
-          <input type="hidden" name="_template" value="box" />
-          <input type="text" name="_honey" class="hidden" />
-          <input type="hidden" name="_captcha" value="true" />
-          <input type="hidden" name="_next" value="https://www.google.com" />
-
-          <label class="block text-sm font-medium mt-3">Full name</label>
-          <input required name="Full Name" class="w-full border rounded px-3 py-2 mt-1" />
-
-          <label class="block text-sm font-medium mt-3">Email</label>
-          <input required type="email" name="Email" class="w-full border rounded px-3 py-2 mt-1" />
-
-          <label class="block text-sm font-medium mt-3">Message</label>
-          <textarea required name="Message" class="w-full border rounded px-3 py-2 mt-1" rows="4"></textarea>
-
-          <button class="mt-4 bg-slate-900 text-white px-4 py-2 rounded">Send message</button>
-          <p class="text-xs text-slate-500 mt-3">Emails are delivered to saipm0430@gmail.com via formsubmit.co.</p>
-        </form>
-      </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="bg-white border-t">
-      <div class="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row justify-between items-start gap-6">
-        <div class="flex items-center gap-3">
-          <img src="/images/companylogo.jpg" alt="RAPRO" class="w-10 h-10 rounded-lg object-cover"/>
-          <div>
-            <h4 class="font-bold">RAPRO TECHNOLOGIES</h4>
-            <p class="text-sm text-slate-600">AWS · DevOps · Internships · Client Projects</p>
-          </div>
-        </div>
-        <div class="text-sm text-slate-600">
-          © <span id="y"></span> RAPRO TECHNOLOGIES. All rights reserved.
-        </div>
-      </div>
-    </footer>
-  </main>
-
-  <script>
-    // Mobile menu toggle
-    document.getElementById('mobileBtn').addEventListener('click', function(){
-      const m = document.getElementById('mobileMenu');
-      m.classList.toggle('hidden');
-    });
-    // Year
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+      <div class="max-w-7
